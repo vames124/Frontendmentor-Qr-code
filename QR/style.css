@@ -1,0 +1,42 @@
+body{
+    background: hsl(220, 15%, 55%);
+    min-width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+div{
+    text-align: center;
+}
+.container{
+    background: white;
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 75px;
+    min-width: 220px;
+}
+img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+p.bold{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.15em;
+    margin-bottom: 0;
+    font-family: 'Outfit', sans-serif;
+}
+p.tiny{
+    font-weight: 400;
+    color:hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+}
+.attribution{
+    padding-top: 10px;
+}
